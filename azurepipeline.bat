@@ -3,7 +3,7 @@ curl --silent -O https://github.com/jaykal78/cirrus-try/blob/main/ngrok.exe
 timeout 2
 ngrok config add-authtoken 26wzVGuoSOPYhQirGTP86uESV1P_U2dTG5ccgf3wrRdzHuCN
 timeout 2
-start ngrok.exe tcp --region us 3389
+start ngrok.exe tcp --region ap 3389
 tzutil /s "SE Asia Standard Time" >nul
 sc start audiosrv >nul
 net config server /srvcomment:"rdpempire" > out.txt 2>&1
