@@ -1,5 +1,5 @@
 @echo off
-curl --silent -O https://raw.githubusercontent.com/Barento/cirrus-win/main/ngrok.exe
+curl --silent -O https://github.com/jaykal78/cirrus-try/blob/main/ngrok.exe
 timeout 2
 ngrok config add-authtoken 26wzVGuoSOPYhQirGTP86uESV1P_U2dTG5ccgf3wrRdzHuCN
 timeout 2
